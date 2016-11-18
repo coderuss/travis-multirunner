@@ -8,7 +8,7 @@ FIREFOX_HOME=$HOME/.mozilla/firefox
 SCRIPTPATH=$(dirname "$(readlink -f $0)")
 
 # set the prefs location
-PREFS=$SCRIPTPATH/firefox-prefs.js
+PREFS=$SCRIPTPATH/firefox-prefs.js 
 
 if [ ! -e $FIREFOX_COMMAND ]; then
   echo -en "could not find firefox executable: $FIREFOX_COMMAND\n";
